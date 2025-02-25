@@ -1,0 +1,35 @@
+{
+  "name": "monorepo-demo",
+  "version": "1.0.0",
+  "description": "Monorepo with multiple servers",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --coverage",
+    "test:watch": "jest --watch",
+    "start:users": "node packages/users-service/src/server.js",
+    "test:coverage": "jest --coverage --coverageReporters='json-summary' --coverageDirectory=coverage",
+    "start:products": "node packages/products-service/src/server.js",
+    "bootstrap": "npm install",
+    "start:db": "node packages/db-service/src/server.js",
+    "test:db": "jest --coverage packages/db-service/tests",
+    "format": "prettier --write ."
+  },
+  "workspaces": [
+    "packages/*"
+  ],
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "prettier": "^3.5.1",
+    "supertest": "^6.3.4"
+  },
+  "directories": {
+    "test": "tests"
+  },
+  "trailingComma": "es5",
+  "tabWidth": 2,
+  "semi": false,
+  "singleQuote": true
+}

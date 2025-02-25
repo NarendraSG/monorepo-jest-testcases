@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1739791305270" clover="3.2.0">
+  <project timestamp="1739791305270" name="All files">
+    <metrics statements="19" coveredstatements="17" conditionals="6" coveredconditionals="5" methods="4" coveredmethods="3" elements="29" coveredelements="25" complexity="0" loc="19" ncloc="19" packages="1" files="1" classes="1"/>
+    <file name="server.js" path="/Users/kuldeep/Desktop/untitled folder/monorepo/packages/products-service/src/server.js">
+      <metrics statements="19" coveredstatements="17" conditionals="6" coveredconditionals="5" methods="4" coveredmethods="3"/>
+      <line num="1" count="1" type="stmt"/>
+      <line num="2" count="1" type="stmt"/>
+      <line num="3" count="1" type="stmt"/>
+      <line num="5" count="1" type="stmt"/>
+      <line num="7" count="1" type="stmt"/>
+      <line num="8" count="1" type="stmt"/>
+      <line num="11" count="1" type="stmt"/>
+      <line num="12" count="2" type="stmt"/>
+      <line num="18" count="1" type="stmt"/>
+      <line num="19" count="2" type="stmt"/>
+      <line num="21" count="2" type="cond" truecount="2" falsecount="0"/>
+      <line num="22" count="1" type="stmt"/>
+      <line num="26" count="1" type="stmt"/>
+      <line num="31" count="1" type="stmt"/>
+      <line num="34" count="1" type="cond" truecount="2" falsecount="0"/>
+      <line num="36" count="1" type="cond" truecount="1" falsecount="1"/>
+      <line num="37" count="0" type="stmt"/>
+      <line num="38" count="0" type="stmt"/>
+      <line num="42" count="1" type="stmt"/>
+    </file>
+  </project>
+</coverage>

@@ -1,0 +1,4 @@
+{"total": {"lines":{"total":30,"covered":26,"skipped":0,"pct":86.66},"statements":{"total":30,"covered":26,"skipped":0,"pct":86.66},"functions":{"total":7,"covered":5,"skipped":0,"pct":71.42},"branches":{"total":10,"covered":8,"skipped":0,"pct":80},"branchesTrue":{"total":0,"covered":0,"skipped":0,"pct":100}}
+,"/Users/kuldeep/Desktop/untitled folder/monorepo/packages/products-service/src/server.js": {"lines":{"total":19,"covered":17,"skipped":0,"pct":89.47},"functions":{"total":4,"covered":3,"skipped":0,"pct":75},"statements":{"total":19,"covered":17,"skipped":0,"pct":89.47},"branches":{"total":6,"covered":5,"skipped":0,"pct":83.33}}
+,"/Users/kuldeep/Desktop/untitled folder/monorepo/packages/users-service/src/server.js": {"lines":{"total":11,"covered":9,"skipped":0,"pct":81.81},"functions":{"total":3,"covered":2,"skipped":0,"pct":66.66},"statements":{"total":11,"covered":9,"skipped":0,"pct":81.81},"branches":{"total":4,"covered":3,"skipped":0,"pct":75}}
+}
